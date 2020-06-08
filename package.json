@@ -1,0 +1,22 @@
+{
+  "name": "memo-cards-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -r esm ./bin/www.js",
+    "debug": "nodemon --inspect-brk=9229 -r esm ./bin/www.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "express-validation": "^3.0.5",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^5.9.6",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.2",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
